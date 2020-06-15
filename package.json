@@ -1,0 +1,30 @@
+{
+  "name": "js-optional-chaining",
+  "version": "1.0.0",
+  "description": "Estudo sobre Optional Chaining",
+  "main": "main.js",
+  "scripts": {
+    "watch": "watchify ./main.js -o ./bundle.js",
+    "build": "browserify ./main.js -o ./bundle.js",
+    "serve": "reload -b",
+    "start": "concurrently \"npm run watch\" \"npm run serve\""
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "reload": "^3.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.1",
+    "watchify": "^3.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniofilho/js-optional-chaining.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniofilho/js-optional-chaining/issues"
+  },
+  "homepage": "https://github.com/daniofilho/js-optional-chaining#readme"
+}
