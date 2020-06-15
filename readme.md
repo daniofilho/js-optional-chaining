@@ -1,4 +1,4 @@
-# JS Optional Chaining Example
+# JS Optional Chaining
 
 Estudo sobre Optional Chaining.
 
