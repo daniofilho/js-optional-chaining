@@ -9,13 +9,12 @@
     "serve": "reload -b",
     "start": "concurrently \"npm run watch\" \"npm run serve\""
   },
-  "dependencies": {
-    "concurrently": "^5.2.0",
-    "reload": "^3.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browserify": "^16.5.1",
-    "watchify": "^3.11.1"
+    "watchify": "^3.11.1",
+    "concurrently": "^5.2.0",
+    "reload": "^3.1.0"
   },
   "repository": {
     "type": "git",
